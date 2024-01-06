@@ -1,0 +1,46 @@
+* Nhúng css vào HTML 
+- style inline: thuộc tính style của phân tử HTML 
+- tag style: thẻ style, ảnh hưởng đến toàn bộ trang HTML
+- external style (file style : .css)
+++ nhúng vào html:
+     link/import
+* bộ chọn
+- Bộ chọn phần tử: 
+h1, giv, body, ...
+h1{
+    color:#ffccd1
+} 
+- Bộ chọn class: 
+   class-name {
+    ...
+   }
+- bộ chọn id:
+#id-name{
+    ....
+}
+- bộ chọn ngữ cảnh:
+[tag / class / id ]: ngữ cảnh {
+    ...
+}
+- bộ chọn khác
+tag01, tag02{
+    ...
+}
+tag01 + tag02 {...}
+tag01 ~ tag02 {...}
+tag01 > tag02 {...}
+* quy tắc css
+margin / padding
+background:
+border
+display: flex/ block/ ...
+position: relative / absolute / ...
+...
+ * Đơn vị:
+ rem
+ em 
+ px
+ ...
+ * hệ màu: 
+ - hàng màu: red, ...
+ Hex: #xxxxxx: x:1-9 / A-F / a-F

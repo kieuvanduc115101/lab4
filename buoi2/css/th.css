@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-menu {
+    display: flex;
+    background-color: rgb(66, 64, 67);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.main-menu .option-menu {
+    padding: 10px 30px;
+    border-right: 1px solid;
+}
+
+.c-blue {
+    color: blue;
+}
+
+.main-menu .option-menu:last-child {
+    border-right: 0;
+}
+
+/* .main-menu .option-menu:nth-child(2n){
+    border-right: 0;
+} */
+.main-menu .option-menu:hover a {
+    color: rgb(246, 255, 0);
+}
+
+.main-menu .option-menu .option:hover {
+    color: red;
+}
+
+.mega-menu {
+    position: absolute;
+    background-color: rgb(196, 189, 193);
+    top: 100%;
+    left: 0;
+    /* ẩn mục con */
+    display: none;
+    width: 130px;
+
+}
+
+.option-menu {
+    position: relative;
+}
+
+/* hover dùng để hiện mục con khi trỏ chuột vào */
+.main-menu>.option-menu:hover .mega-menu {
+    display: block;
+}
